@@ -6,3 +6,7 @@ development: &default
 test: &test
   <<: *default
   database: copycopter_test
+
+production:
+  <<: *default
+  database: copycopter_production
