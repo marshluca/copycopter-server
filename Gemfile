@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org/'
 
 gem 'dynamic_form', '1.1.4'
 gem 'flutie', '1.3.3'
@@ -35,4 +35,8 @@ group :test do
   gem 'fakeweb', '1.3.0'
   gem 'shoulda-matchers', '1.0.0'
   gem 'timecop', '0.3.5'
+end
+
+group :production do
+  gem 'puma'
 end
